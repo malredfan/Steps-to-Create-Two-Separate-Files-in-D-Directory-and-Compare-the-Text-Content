@@ -15,7 +15,6 @@ In system administration, managing files using command-line tools is essential. 
 
 # Steps
 ### Step 1: Create the Project Directory and Navigate to It
-
 In this step, we use the `mkdir` command to create a new directory for the project, and the `cd` command to navigate into it.
 
 ```bash
@@ -23,10 +22,9 @@ mkdir -p ~/Projects/Mohammed-FileCompare
 cd ~/Projects/Mohammed-FileCompare
 ```
 
-![create-project-folder](docs/ImagesProject/create-project-folder.jpg)
+![createprojectfolder](ImagesProject/create-project-folder.png)
 
 ### Step 2: Create the Files and Write Content
-
 In this step, we use the `echo` command to create two text files (`file1.txt` and `file2.txt`) and write content into them. The `>` operator is used to create/overwrite the file, while the `>>` operator is used to append additional text. We also include the author's copyright information in both files.
 
 ```bash
@@ -37,30 +35,27 @@ echo "Author: Mohammed Abdulrahman Alalyani (malredfan)" > file2.txt
 echo "Hello, this is file two with some changes." >> file2.txt
 ```
 
-![create-files-with-copyright](docs/ImagesProject/create-files-with-copyright.jpg)
+![create-files-with-copyright](ImagesProject/create-files-with-copyright.png)
 
 ### Step 3: Compare the Files Using `diff`
-
 In this step, we use the `diff` command to compare the two files line by line. This command displays the differences between `file1.txt` and `file2.txt`.
 
 ```bash
 diff file1.txt file2.txt
 ```
 
-![diff-output](docs/ImagesProject/diff-output.jpg)
+![diff-output](ImagesProject/diff-output.png)
 
 ### Step 4: Compare the Files Side-by-Side Using `sdiff`
-
 In this step, we use the `sdiff` command to compare the two files side-by-side. This provides a clearer visual representation of the differences, showing both files in parallel columns.
 
 ```bash
 sdiff file1.txt file2.txt
 ```
 
-![sdiff-output](docs/ImagesProject/sdiff-output.jpg)
+![sdiff-output](ImagesProject/sdiff-output.png)
 
 # Commands Required
-
 | Command | Description |
 |---------|-------------|
 | `mkdir` | Creates a new directory. |
