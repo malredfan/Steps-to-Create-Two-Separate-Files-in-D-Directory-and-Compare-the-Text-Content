@@ -1,4 +1,4 @@
-# Steps-to-Create-Two-Separate-Files-in-D-Directory-and-Compare-the-Text-Content
+# Steps to Create Two Separate Files in D Directory and Compare the Text Content
 
 > **Disclaimer:** This project has been prepared for academic and personal purposes only, and represents the sole individual work of the author named above. No part of this project may be copied, reproduced, quoted, distributed, or used in any form — in whole or in part — without prior written permission from the author.
 
